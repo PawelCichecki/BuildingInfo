@@ -1,0 +1,33 @@
+Cel Sprintu:;;
+Dostarczenie dzia?aj?cego REST API dla aplikacji Building Info, umo?liwiaj?cego zdalne obliczanie powierzchni, kubatury oraz mocy o?wietlenia dla pomieszcze?, poziomów i ca?ych budynków;;
+Element rejestru produktu;Zadania;Pracoch?onno?? 
+rest;;14
+;Analiza ramy architektonicznej (np Maven);2
+;Implementacja hierarchi klas;6
+;Obs?uga formatu JSON na wej?ciu i wyj?ciu;3
+;Implementacja kontrolera REST;3
+;;
+powierzchnia budynku;;3
+;prawid?owo podawane dla pomieszczenia;0,5
+;prawid?owo podawane dla pi?tra;1
+;prawid?owo podawane dla budynku;1,5
+;;
+kubatura budynku;;4
+;prawid?owo podawane dla pomieszczenia;0,5
+;prawid?owo podawane dla pi?tra;1,5
+;prawid?owo podawane dla budynku;2
+;;
+moc o?wietlenia;;4
+;prawid?owo podawane dla pomieszczenia;0,5
+;dla poziomu wyliczane jako ?rednia moc na m^2 na poziomie;1,5
+;dla budynku wyliczane jako ?rednia moc na poziomach;2
+;;
+Konfiguracja GitHuba i CI;;1
+;;
+uml;;4
+;;
+Konfiguracja Javadoca w Mavenie + SLF4J;;2
+;;
+;;
+;;SUMA:
+;;32
